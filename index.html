@@ -11,39 +11,43 @@
     <!--içerik kısmı-->
     <div class="container">
         <!-- logo kısmı-->
-        <div class="logo">
-            <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" width="351" height="113">
-        </div>
+        <div class="logo">   <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" width="351" height="113"></div>
+         
         <!--Arama kutusunun olduğu kısım-->
         <div class="search">
             <table>
                 <tbody>
                     <tr>
-                        <td>
+                        <td colspan="3" id="td_first">
                             <form method="GET">
-                                <div>
-                                    search the web using Google!
+                                <div class="search_top">
+                                   <span id="search_span">Search the web using Google!</span> 
                                     <br>
-                                    <input type="text"> <br>
-                                    <input type="submit" value="Google Search">
-                                    <input type="submit" value="I'm feeling lucky">
+                                    <input id="input_first" type="text"> <br>
+                                    <div class="search_div">
+                                        <input  type="submit" value="Google Search">
+                                        <input  type="submit" value="I'm feeling lucky">
+                                    </div>
                                     <br>
                                 </div>
                             </form>
                         </td>
                     </tr>
                     <tr>
-                        <td> 
+                        <td id="left_td"> 
                             <!--Alttaki kutular-->
-                            <div>
-                                Special Searches
-                                <br>
-                                <a href="https://web.archive.org/web/19990224014327/http://www.google.com/stanford">Standford Search</a>
-                                <br>
-                                <a href="https://web.archive.org/web/19990221231654/http://www.google.com/linux">Linux Search</a>
+                            <div class="left_td_main">
+                                <div>Special Searches</div>
+                                
+                                
+                                <div><a href="https://web.archive.org/web/19990224014327/http://www.google.com/stanford">Standford Search</a></div>
+                                
+                                
+                                <div>  <a href="https://web.archive.org/web/19990221231654/http://www.google.com/linux">Linux Search</a></div>
+                              
                             </div>
                         </td>
-                        <td>
+                        <td id="center_td">
                             <div>
                                 <!--Alttaki kutular-->
                                 <div>
@@ -57,7 +61,7 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td id="right_td">
                             <div>
                            <form method="GET" action="https://web.archive.org/web/19991127080632/http://www.egroups.com/cgi-bin/subscribe.py"></form>
                             </div>
@@ -67,17 +71,21 @@
                                 updates monthly:
                                 <br>
                                 <input type="hidden">
-                                <input type="text" value="your-email">
+                                <input type="text" value="your e-mail">
                                 <br>
                                 <input type="submit" value="Subscribe">
                                 <a href="https://web.archive.org/web/19990508062635/http://www.egroups.com/list/google-friends">Archive</a>
                             </div>
                         </div> 
+                        
                         </td>
                     </tr>
                 </tbody>
+               
             </table>
+            <p id="copyright">Copyright ©1999 Google Inc.</p>
         </div>
+        
     </div>
     
 </body>

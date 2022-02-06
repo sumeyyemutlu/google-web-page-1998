@@ -51,4 +51,56 @@ body .container .search table #left_td {
   width: 37%;
   background-color: #7EE5DA;
 }
+
+body .container .search table #left_td .left_td_main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .search table #left_td .left_td_main div {
+  text-align: center;
+}
+
+body .container .search table #center_td {
+  background-color: #70CCC2;
+}
+
+body .container .search table #center_td div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .search table #center_td div div {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+body .container .search table #right_td {
+  background-color: #62B3AA;
+}
+
+body .container .search table #right_td div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+body .container .search #copyright {
+  margin-left: 260px;
+  margin-top: 15px;
+  font-size: 0.8em;
+}
 /*# sourceMappingURL=index.css.map */
